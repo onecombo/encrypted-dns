@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>PayloadContent</key>
-        <array>
-            <dict>
-                <key>DNSSettings</key>
-                <dict>
-                    <key>DNSProtocol</key>
-                    <string>TLS</string>
-                    <key>ServerAddresses</key>
-                    <array>
-                        <string>43.154.154.162</string>
-                    </array>
-                    <key>ServerName</key>
-                    <string>dns.flymc.cc</string>
-                </dict>
-                <key>PayloadDescription</key>
-                <string>TLS DNS</string>
-                <key>PayloadDisplayName</key>
-                <string>flymc DNS</string>
-                <key>PayloadIdentifier</key>
-                <string>com.apple.vpn.managed.dd09738c-7a04-4c64-be13-8c6892d945c9</string>
-                <key>PayloadType</key>
-                <string>com.apple.dnsSettings.managed</string>
-                <key>PayloadUUID</key>
-                <string>dd09738c-7a04-4c64-be13-8c6892d945c9</string>
-                <key>PayloadVersion</key>
-                <integer>1</integer>
-                <key>ProhibitDisablement</key>
-                <false/>
-            </dict>
-        </array>
-        <key>PayloadDescription</key>
-        <string>dns</string>
-        <key>PayloadDisplayName</key>
-        <string>dns.flymc</string>
-        <key>PayloadIdentifier</key>
-        <string>fuangyians-MacBook-Air.ADA48F80asdfad-8D1C-4456-8BB8-E8859E2A2904</string>
-        <key>PayloadRemovalDisallowed</key>
-        <false/>
-        <key>PayloadType</key>
-        <string>Configuration</string>
-        <key>PayloadUUID</key>
-        <string>8F5E7F85-316A-4A7E-8500-E9C7951E0DC4</string>
-        <key>PayloadVersion</key>
-        <integer>1</integer>
-    </dict>
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>43.154.154.162</string>
+				</array>
+				<key>ServerName</key>
+				<string>dns.flymc.cc</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>DNS</string>
+			<key>PayloadDisplayName</key>
+			<string>flymc DNS over TLS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.2f422cf0-556e-485f-b5c4-94c9c36cb0a3</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>2f422cf0-556e-485f-b5c4-94c9c36cb0a3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>DNS</string>
+	<key>PayloadDisplayName</key>
+	<string>flymc DNS over TLS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.paulmillr.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>8728e5d6-61a3-435c-a86b-55d9c5c44fea</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
 </plist>
