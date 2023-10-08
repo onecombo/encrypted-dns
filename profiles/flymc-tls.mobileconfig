@@ -8,25 +8,24 @@
                 <key>DNSSettings</key>
                 <dict>
                     <key>DNSProtocol</key>
-                    <string>是TLS类型的还是HTTPS类型的，只填写英文部分</string>
+                    <string>TLS</string>
                     <key>ServerAddresses</key>
                     <array>
-                        <string>你服务器的ip</string>
-                        <string>你服务器的ip2，如果有更多IP就继续照着往下写</string>
+                        <string>43.154.154.162</string>
                     </array>
                     <key>ServerName</key>
-                    <string>DoT的地址</string>
+                    <string>dns.flymc.cc</string>
                 </dict>
                 <key>PayloadDescription</key>
-                <string>对于配置文件的描述，可自定义</string>
+                <string>TLS DNS</string>
                 <key>PayloadDisplayName</key>
-                <string>想显示dns的名称～可自定义</string>
+                <string>flymc DNS</string>
                 <key>PayloadIdentifier</key>
-                <string>com.apple.vpn.managed.C06CADF7-7AAF-4426-933A-25E1792277CF</string>
+                <string>com.apple.vpn.managed.dd09738c-7a04-4c64-be13-8c6892d945c9</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadUUID</key>
-                <string>C06CADF7-7AAF-4426-933A-25E1792277CF</string>
+                <string>dd09738c-7a04-4c64-be13-8c6892d945c9</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>ProhibitDisablement</key>
@@ -34,9 +33,9 @@
             </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>对于配置文件的授予权限时的描述，可自定义</string>
+        <string>dns</string>
         <key>PayloadDisplayName</key>
-        <string>想显示dns的名称～可自定义</string>
+        <string>dns.flymc</string>
         <key>PayloadIdentifier</key>
         <string>fuangyians-MacBook-Air.ADA48F80asdfad-8D1C-4456-8BB8-E8859E2A2904</string>
         <key>PayloadRemovalDisallowed</key>
